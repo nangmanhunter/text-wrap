@@ -1,4 +1,11 @@
 {
+  "publisher": "nangmanhunter-publisher",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nangmanhunter/text-wrap.git"
+  },
+
+
   "name": "text-wrap",
   "displayName": "text-wrap",
   "description": "",

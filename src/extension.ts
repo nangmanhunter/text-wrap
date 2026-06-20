@@ -13,6 +13,10 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.commands.registerCommand('text-wrap-brackets-square', textWrapHandler('[', ']')),
         vscode.commands.registerCommand('text-wrap-brackets-curly', textWrapHandler('{', '}')),
         vscode.commands.registerCommand('text-wrap-brackets-angle', textWrapHandler('<', '>')),
+
+
+		
+		vscode.commands.registerCommand('text-wrap-powershell-newitem-markdown', textWrapHandler('ni ', '.md')),
         
     ];
 
