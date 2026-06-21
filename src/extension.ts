@@ -17,6 +17,7 @@
 import * as vscode from 'vscode';
 import { textWrapHandler} from './functions/textWrapHandler';
 import { textWrapInputHandler} from './functions/textWrapInputHandler';
+import { textWrapNoselectionsHandler} from './functions/textWrapNoselectionsHandler';
 
 export function activate(context: vscode.ExtensionContext) {
 
@@ -49,6 +50,9 @@ export function activate(context: vscode.ExtensionContext) {
 
         vscode.commands.registerCommand('text-wrap-input', textWrapInputHandler(false)),
         vscode.commands.registerCommand('text-wrap-input-notrailing', textWrapInputHandler(true)),
+
+
+        vscode.commands.registerCommand('text-wrap-noselections-quotes-double', textWrapNoselectionsHandler('"', '"')),
 
 
         vscode.commands.registerCommand('text-wrap-powershell-newitem-markdown', textWrapHandler('ni ', '.md')),

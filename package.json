@@ -129,6 +129,11 @@
         "title": "🔴ㅇㅇ🟠 🔴ㅇㅇ🟠 ... 🔴ㅇㅇ🟡"
       },
       {
+        "command": "text-wrap-noselections-quotes-double",
+        "category": "text-wrap-noselections-line-quotes-double",
+        "title": "\"ㅇㅇ\""
+      },      
+      {
         "command": "text-wrap-powershell-newitem-markdown",
         "category": "text-wrap-powershell-newitem-markdown",
         "title": "ni ㅇㅇ.md"

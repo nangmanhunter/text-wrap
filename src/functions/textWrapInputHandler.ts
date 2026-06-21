@@ -1,6 +1,7 @@
 import * as vscode from 'vscode';
 import { textWrapHandler } from './textWrapHandler';
 
+
 export function textWrapInputHandler(isNotrailing: boolean = false) {
     return async () => {
         const editor = vscode.window.activeTextEditor;
