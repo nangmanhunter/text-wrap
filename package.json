@@ -20,48 +20,53 @@
     "commands": [
       {
         "command": "text-wrap-quotes-double",
-        "category": "Text.Wrap.Quotes.Double",
+        "category": "text-wrap-quotes-double",
         "title": "\"ㅇㅇ\""
       },
       {
         "command": "text-wrap-quotes-double-comma",
-        "category": "Text.Wrap.Quotes.Double.Comma",
+        "category": "text-wrap-quotes-double-comma",
         "title": "\"ㅇㅇ\","
       },
       {
         "command": "text-wrap-quotes-single",
-        "category": "Text.Wrap.Quotes.Single",
+        "category": "text-wrap-quotes-single",
         "title": "'ㅇㅇ'"
       },
       {
         "command": "text-wrap-backtick",
-        "category": "Text.Wrap.Backtick",
+        "category": "text-wrap-backtick",
         "title": "`ㅇㅇ`"
       },
       {
         "command": "text-wrap-brackets-round",
-        "category": "Text.Wrap.Brackets.Round",
+        "category": "text-wrap-brackets-round",
         "title": "(ㅇㅇ)"
       },
       {
         "command": "text-wrap-brackets-square",
-        "category": "Text.Wrap.Brackets.Square",
+        "category": "text-wrap-brackets-square",
         "title": "[ㅇㅇ]"
       },
       {
         "command": "text-wrap-brackets-curly",
-        "category": "Text.Wrap.Brackets.Curly",
+        "category": "text-wrap-brackets-curly",
         "title": "{ㅇㅇ}"
       },
       {
         "command": "text-wrap-brackets-angle",
-        "category": "Text.Wrap.Brackets.Angle",
+        "category": "text-wrap-brackets-angle",
         "title": "<ㅇㅇ>"
       },
       {
         "command": "text-wrap-powershell-newitem-markdown",
-        "category": "Text.Wrap.Powershell.Newitem.Markdown",
+        "category": "text-wrap-powershell-newitem-markdown",
         "title": "ni ㅇㅇ.md"
+      },
+      {
+        "command": "text-wrap-notrailing-quotes-double-comma",
+        "category": "text-wrap-notrailing-quotes-double-comma",
+        "title": "\"ㅇㅇ\", ... \"ㅇㅇ\""
       }
     ]
   },
