@@ -1,4 +1,5 @@
 import * as vscode from 'vscode';
+import { textWrapHandler } from './textWrapHandler';
 
 export function textWrapInputHandler() {
     return async () => {
@@ -25,19 +26,6 @@ export function textWrapInputHandler() {
         if (endChar === undefined) { return; }
 
 
-
-        const selections = editor.selections;
-
-        editor.edit(editBuilder => {
-            selections.forEach(selection => {
-                const selectedText = editor.document.getText(selection);
-                const wrappedText = `${startChar}${selectedText}${endChar}`;
-                editBuilder.replace(selection, wrappedText);
-            });
-        }).then(success => {
-            if (!success) {
-                vscode.window.showErrorMessage('Failed to custom text-wrapping.');
-            }
-        });
+        textWrapHandler(startChar, endChar)();
     };
 }
