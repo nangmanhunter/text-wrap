@@ -32,25 +32,5 @@ export function textWrapNoselectionsHandler(startChar: string, endChar: string, 
 
         textWrapHandler(startChar, endChar, trailingChar)();
 
-        // editor.edit(editBuilder => {
-        //     lineSelections.forEach((selection) => {
-                
-        //         // 원래 정방향 배열에서의 인덱스를 기준으로 마지막 줄을 판단합니다.
-        //         const originalIndex = lineSelections.indexOf(selection);
-        //         const selectedText = editor.document.getText(selection);
-
-        //         const isLast = originalIndex === lineSelections.length - 1;
-                
-        //         // 정직하게 입력된 값 기준으로 쉼표(trailingChar) 위치를 매핑합니다.
-        //         const finalEndChar = (!isLast && trailingChar !== undefined) ? trailingChar : endChar;
-
-        //         const wrappedText = `${startChar}${selectedText}${finalEndChar}`;
-        //         editBuilder.replace(selection, wrappedText);
-        //     });
-        // }).then(success => {
-        //     if (!success) {
-        //         vscode.window.showErrorMessage('Failed to text-wrapping.');
-        //     }
-        // });
     };
 }

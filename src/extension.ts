@@ -39,6 +39,7 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.commands.registerCommand('text-wrap-brackets-angle-comma', textWrapHandler('<', '>,')),
         
         
+        // notrailing
         vscode.commands.registerCommand('text-wrap-notrailing-quotes-double-comma', textWrapHandler('"', '",', '"')),
         vscode.commands.registerCommand('text-wrap-notrailing-quotes-single-comma', textWrapHandler("'", "',", "'")),
         vscode.commands.registerCommand('text-wrap-notrailing-backtick-comma', textWrapHandler('`', '`,', '`')),
@@ -47,12 +48,34 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.commands.registerCommand('text-wrap-notrailing-brackets-curly-comma', textWrapHandler('{', '},', '}')),
         vscode.commands.registerCommand('text-wrap-notrailing-brackets-angle-comma', textWrapHandler('<', '>,', '>')),
 
-
+        // input
         vscode.commands.registerCommand('text-wrap-input', textWrapInputHandler(false)),
         vscode.commands.registerCommand('text-wrap-input-notrailing', textWrapInputHandler(true)),
 
 
+        // noselections
         vscode.commands.registerCommand('text-wrap-noselections-quotes-double', textWrapNoselectionsHandler('"', '"')),
+        vscode.commands.registerCommand('text-wrap-noselections-quotes-double-comma', textWrapNoselectionsHandler('"', '",')),
+        vscode.commands.registerCommand('text-wrap-noselections-quotes-single', textWrapNoselectionsHandler("'", "'")),
+        vscode.commands.registerCommand('text-wrap-noselections-quotes-single-comma', textWrapNoselectionsHandler("'", "',")),
+        vscode.commands.registerCommand('text-wrap-noselections-backtick', textWrapNoselectionsHandler('`', '`')),
+        vscode.commands.registerCommand('text-wrap-noselections-backtick-comma', textWrapNoselectionsHandler('`', '`,')),
+        vscode.commands.registerCommand('text-wrap-noselections-brackets-round', textWrapNoselectionsHandler('(', ')')),
+        vscode.commands.registerCommand('text-wrap-noselections-brackets-round-comma', textWrapNoselectionsHandler('(', '),')),
+        vscode.commands.registerCommand('text-wrap-noselections-brackets-square', textWrapNoselectionsHandler('[', ']')),
+        vscode.commands.registerCommand('text-wrap-noselections-brackets-square-comma', textWrapNoselectionsHandler('[', '],')),
+        vscode.commands.registerCommand('text-wrap-noselections-brackets-curly', textWrapNoselectionsHandler('{', '}')),
+        vscode.commands.registerCommand('text-wrap-noselections-brackets-curly-comma', textWrapNoselectionsHandler('{', '},')),
+        vscode.commands.registerCommand('text-wrap-noselections-brackets-angle', textWrapNoselectionsHandler('<', '>')),
+        vscode.commands.registerCommand('text-wrap-noselections-brackets-angle-comma', textWrapNoselectionsHandler('<', '>,')),
+        vscode.commands.registerCommand('text-wrap-noselections-notrailing-quotes-double-comma', textWrapNoselectionsHandler('"', '",', '"')),
+        vscode.commands.registerCommand('text-wrap-noselections-notrailing-quotes-single-comma', textWrapNoselectionsHandler("'", "',", "'")),
+        vscode.commands.registerCommand('text-wrap-noselections-notrailing-backtick-comma', textWrapNoselectionsHandler('`', '`,', '`')),
+        vscode.commands.registerCommand('text-wrap-noselections-notrailing-brackets-round-comma', textWrapNoselectionsHandler('(', '),', ')')),
+        vscode.commands.registerCommand('text-wrap-noselections-notrailing-brackets-square-comma', textWrapNoselectionsHandler('[', '],', ']')),
+        vscode.commands.registerCommand('text-wrap-noselections-notrailing-brackets-curly-comma', textWrapNoselectionsHandler('{', '},', '}')),
+        vscode.commands.registerCommand('text-wrap-noselections-notrailing-brackets-angle-comma', textWrapNoselectionsHandler('<', '>,', '>')),
+
 
 
         vscode.commands.registerCommand('text-wrap-powershell-newitem-markdown', textWrapHandler('ni ', '.md')),
