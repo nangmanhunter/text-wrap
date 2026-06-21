@@ -27,10 +27,17 @@
 | text-wrap-notrailing-brackets-angle-comma  | `<ㅇㅇ>, <ㅇㅇ>, ... <ㅇㅇ>`           |
 | text-wrap-input                            | `🔴ㅇㅇ🟠`                           |
 | text-wrap-input-notrailing                 | `🔴ㅇㅇ🟠 🔴ㅇㅇ🟠 ... 🔴ㅇㅇ🟡` |
+| text-wrap-noselections-quotes-double                    | `ㅣ"ㅇㅇ"`                               |
 
 
 ## Demo
-![demo](./.assets/text-wrap.gif)
+| command                  | demo                                          |
+| :----------------------- | :-------------------------------------------- |
+| `text-wrap`              | ![demo](./.assets/text-wrap.gif)              |
+| `text-wrap-noselections` | ![demo](./.assets/text-wrap-noselections.gif) |
+
+
+
 
 
 ## License
