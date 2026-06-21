@@ -7,7 +7,7 @@
   "name": "text-wrap",
   "displayName": "text-wrap",
   "description": "",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "engines": {
     "vscode": "^1.125.0"
   },
@@ -133,7 +133,7 @@
         "category": "text-wrap-noselections-quotes-double",
         "title": "\"ㅇㅇ\""
       },
-            {
+      {
         "command": "text-wrap-noselections-quotes-double-comma",
         "category": "text-wrap-noselections-quotes-double-comma",
         "title": "\"ㅇㅇ\","
