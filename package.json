@@ -57,6 +57,15 @@
         "command": "text-wrap-brackets-angle",
         "category": "Text.Wrap.Brackets.Angle",
         "title": "<ㅇㅇ>"
+      },
+
+
+
+
+      {
+        "command": "text-wrap-powershell-newitem-markdown",
+        "category": "Text.Wrap.Powershell.Newitem.Markdown",
+        "title": "ni ㅇㅇ.md"
       }
     ]
   },
