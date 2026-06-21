@@ -26,5 +26,9 @@
 | text-wrap-notrailing-brackets-angle-comma  | `<ㅇㅇ>, ... <ㅇㅇ>`     |
 
 
+## Demo
+![demo](./.assets/text-wrap.gif)
+
+
 ## License
 This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.

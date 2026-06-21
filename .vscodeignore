@@ -13,6 +13,3 @@ vsc-extension-quickstart.md
 **/*.ts
 **/.vscode-test.*
 
-
-#
-.scripts-publish/
