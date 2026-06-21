@@ -47,7 +47,8 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.commands.registerCommand('text-wrap-notrailing-brackets-angle-comma', textWrapHandler('<', '>,', '>')),
 
 
-        vscode.commands.registerCommand('text-wrap-input', textWrapInputHandler()),
+        vscode.commands.registerCommand('text-wrap-input', textWrapInputHandler(false)),
+        vscode.commands.registerCommand('text-wrap-input-notrailing', textWrapInputHandler(true)),
 
 
         vscode.commands.registerCommand('text-wrap-powershell-newitem-markdown', textWrapHandler('ni ', '.md')),

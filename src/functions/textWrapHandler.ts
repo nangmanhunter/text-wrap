@@ -5,7 +5,12 @@ export function textWrapHandler(startChar: string, endChar: string, trailingChar
         const editor = vscode.window.activeTextEditor;
         if (!editor) { return; }
 
-        const selections = editor.selections;
+
+
+        // const selections = editor.selections;
+        // ✅LineIndex.❌CursorIndex
+        const selections = [...editor.selections].sort((a, b) => a.start.compareTo(b.start));
+
 
         editor.edit(editBuilder => {
             selections.forEach((selection, index) => {
