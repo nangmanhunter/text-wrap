@@ -4,12 +4,10 @@
     "type": "git",
     "url": "https://github.com/nangmanhunter/text-wrap.git"
   },
-
-
   "name": "text-wrap",
   "displayName": "text-wrap",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.125.0"
   },
@@ -20,15 +18,46 @@
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
-      { "command": "text-wrap-quotes-double", "category": "Text.Wrap.Quotes.Double", "title": "\"ㅇㅇ\"" },
-      { "command": "text-wrap-quotes-double-comma", "category": "Text.Wrap.Quotes.Double.Comma", "title": "\"ㅇㅇ\"," },
-      { "command": "text-wrap-quotes-single", "category": "Text.Wrap.Quotes.Single", "title": "'ㅇㅇ'" },
-      { "command": "text-wrap-backtick", "category": "Text.Wrap.Backtick", "title": "`ㅇㅇ`" },
-      { "command": "text-wrap-brackets-round", "category": "Text.Wrap.Brackets.Round", "title": "(ㅇㅇ)" },
-      { "command": "text-wrap-brackets-square", "category": "Text.Wrap.Brackets.Square", "title": "[ㅇㅇ]" },
-      { "command": "text-wrap-brackets-curly", "category": "Text.Wrap.Brackets.Curly", "title": "{ㅇㅇ}" },
-      { "command": "text-wrap-brackets-angle", "category": "Text.Wrap.Brackets.Angle", "title": "<ㅇㅇ>" }
-
+      {
+        "command": "text-wrap-quotes-double",
+        "category": "Text.Wrap.Quotes.Double",
+        "title": "\"ㅇㅇ\""
+      },
+      {
+        "command": "text-wrap-quotes-double-comma",
+        "category": "Text.Wrap.Quotes.Double.Comma",
+        "title": "\"ㅇㅇ\","
+      },
+      {
+        "command": "text-wrap-quotes-single",
+        "category": "Text.Wrap.Quotes.Single",
+        "title": "'ㅇㅇ'"
+      },
+      {
+        "command": "text-wrap-backtick",
+        "category": "Text.Wrap.Backtick",
+        "title": "`ㅇㅇ`"
+      },
+      {
+        "command": "text-wrap-brackets-round",
+        "category": "Text.Wrap.Brackets.Round",
+        "title": "(ㅇㅇ)"
+      },
+      {
+        "command": "text-wrap-brackets-square",
+        "category": "Text.Wrap.Brackets.Square",
+        "title": "[ㅇㅇ]"
+      },
+      {
+        "command": "text-wrap-brackets-curly",
+        "category": "Text.Wrap.Brackets.Curly",
+        "title": "{ㅇㅇ}"
+      },
+      {
+        "command": "text-wrap-brackets-angle",
+        "category": "Text.Wrap.Brackets.Angle",
+        "title": "<ㅇㅇ>"
+      }
     ]
   },
   "scripts": {
