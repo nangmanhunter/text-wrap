@@ -119,6 +119,11 @@
         "title": "<ㅇㅇ>, ... <ㅇㅇ>"
       },
       {
+        "command": "text-wrap-input",
+        "category": "text-wrap-input",
+        "title": "💻ㅇㅇ💻"
+      },
+      {
         "command": "text-wrap-powershell-newitem-markdown",
         "category": "text-wrap-powershell-newitem-markdown",
         "title": "ni ㅇㅇ.md"

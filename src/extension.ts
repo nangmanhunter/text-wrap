@@ -16,6 +16,7 @@
  */
 import * as vscode from 'vscode';
 import { textWrapHandler} from './functions/textWrapHandler';
+import { textWrapInputHandler} from './functions/textWrapInputHandler';
 
 export function activate(context: vscode.ExtensionContext) {
 
@@ -44,6 +45,9 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.commands.registerCommand('text-wrap-notrailing-brackets-square-comma', textWrapHandler('[', '],', ']')),
         vscode.commands.registerCommand('text-wrap-notrailing-brackets-curly-comma', textWrapHandler('{', '},', '}')),
         vscode.commands.registerCommand('text-wrap-notrailing-brackets-angle-comma', textWrapHandler('<', '>,', '>')),
+
+
+        vscode.commands.registerCommand('text-wrap-input', textWrapInputHandler()),
 
 
         vscode.commands.registerCommand('text-wrap-powershell-newitem-markdown', textWrapHandler('ni ', '.md')),

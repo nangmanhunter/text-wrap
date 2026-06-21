@@ -1,5 +1,6 @@
 # nangman-text-wrap
 
+
 ## Specification
 | command                                    | return                   |
 | :----------------------------------------- | :----------------------- |
@@ -24,6 +25,7 @@
 | text-wrap-notrailing-brackets-square-comma | `[ㅇㅇ], ... [ㅇㅇ]`     |
 | text-wrap-notrailing-brackets-curly-comma  | `{ㅇㅇ}, ... {ㅇㅇ}`     |
 | text-wrap-notrailing-brackets-angle-comma  | `<ㅇㅇ>, ... <ㅇㅇ>`     |
+| text-wrap-input                            | `💻ㅇㅇ💻`             |
 
 
 ## Demo
