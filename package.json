@@ -7,7 +7,7 @@
   "name": "text-wrap",
   "displayName": "text-wrap",
   "description": "",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "engines": {
     "vscode": "^1.125.0"
   },
@@ -132,7 +132,7 @@
         "command": "text-wrap-noselections-quotes-double",
         "category": "text-wrap-noselections-line-quotes-double",
         "title": "\"ㅇㅇ\""
-      },      
+      },
       {
         "command": "text-wrap-powershell-newitem-markdown",
         "category": "text-wrap-powershell-newitem-markdown",
