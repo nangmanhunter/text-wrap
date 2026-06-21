@@ -7,7 +7,7 @@
   "name": "text-wrap",
   "displayName": "text-wrap",
   "description": "",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "engines": {
     "vscode": "^1.125.0"
   },
@@ -83,17 +83,41 @@
         "category": "text-wrap-brackets-angle-comma",
         "title": "<ㅇㅇ>,"
       },
-      { "command": "text-wrap-notrailing-quotes-double-comma", "category": "text-wrap-notrailing-quotes-double-comma", "title": "\"ㅇㅇ\", ... \"ㅇㅇ\"" },
-      { "command": "text-wrap-notrailing-quotes-single-comma", "category": "text-wrap-notrailing-quotes-single-comma", "title": "'ㅇㅇ', ... 'ㅇㅇ'" },
-      { "command": "text-wrap-notrailing-backtick-comma", "category": "text-wrap-notrailing-backtick-comma", "title": "`ㅇㅇ`, ... `ㅇㅇ`" },
-      { "command": "text-wrap-notrailing-brackets-round-comma", "category": "text-wrap-notrailing-brackets-round-comma", "title": "(ㅇㅇ), ... (ㅇㅇ)" },
-      { "command": "text-wrap-notrailing-brackets-square-comma", "category": "text-wrap-notrailing-brackets-square-comma", "title": "[ㅇㅇ], ... [ㅇㅇ]" },
-      { "command": "text-wrap-notrailing-brackets-curly-comma", "category": "text-wrap-notrailing-brackets-curly-comma", "title": "{ㅇㅇ}, ... {ㅇㅇ}" },
-      { "command": "text-wrap-notrailing-brackets-angle-comma", "category": "text-wrap-notrailing-brackets-angle-comma", "title": "<ㅇㅇ>, ... <ㅇㅇ>" },
-
-
-
-
+      {
+        "command": "text-wrap-notrailing-quotes-double-comma",
+        "category": "text-wrap-notrailing-quotes-double-comma",
+        "title": "\"ㅇㅇ\", ... \"ㅇㅇ\""
+      },
+      {
+        "command": "text-wrap-notrailing-quotes-single-comma",
+        "category": "text-wrap-notrailing-quotes-single-comma",
+        "title": "'ㅇㅇ', ... 'ㅇㅇ'"
+      },
+      {
+        "command": "text-wrap-notrailing-backtick-comma",
+        "category": "text-wrap-notrailing-backtick-comma",
+        "title": "`ㅇㅇ`, ... `ㅇㅇ`"
+      },
+      {
+        "command": "text-wrap-notrailing-brackets-round-comma",
+        "category": "text-wrap-notrailing-brackets-round-comma",
+        "title": "(ㅇㅇ), ... (ㅇㅇ)"
+      },
+      {
+        "command": "text-wrap-notrailing-brackets-square-comma",
+        "category": "text-wrap-notrailing-brackets-square-comma",
+        "title": "[ㅇㅇ], ... [ㅇㅇ]"
+      },
+      {
+        "command": "text-wrap-notrailing-brackets-curly-comma",
+        "category": "text-wrap-notrailing-brackets-curly-comma",
+        "title": "{ㅇㅇ}, ... {ㅇㅇ}"
+      },
+      {
+        "command": "text-wrap-notrailing-brackets-angle-comma",
+        "category": "text-wrap-notrailing-brackets-angle-comma",
+        "title": "<ㅇㅇ>, ... <ㅇㅇ>"
+      },
       {
         "command": "text-wrap-powershell-newitem-markdown",
         "category": "text-wrap-powershell-newitem-markdown",
